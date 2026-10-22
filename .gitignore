@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+**/node_modules/
+**/.next/
+**/__pycache__/
+**/.venv/
+**/venv/
+backend/pgsql/pgsql/pgAdmin 4/runtime/pgAdmin4.exe

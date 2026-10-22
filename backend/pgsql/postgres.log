@@ -1,0 +1,164 @@
+2026-10-16 16:56:28.865 IST [18796] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-16 16:56:28.871 IST [18796] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-16 16:56:28.872 IST [18796] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-16 16:56:28.945 IST [12764] LOG:  database system was shut down at 2026-10-16 16:56:27 IST
+2026-10-16 16:56:29.002 IST [18796] LOG:  database system is ready to accept connections
+2026-10-16 17:01:28.932 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:03:18.060 IST [18128] LOG:  checkpoint complete: wrote 1034 buffers (6.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=108.778 s, sync=0.341 s, total=109.129 s; sync files=362, longest=0.003 s, average=0.001 s; distance=4993 kB, estimate=4993 kB; lsn=0/1A57BC8, redo lsn=0/1A57B90
+2026-10-16 17:06:28.068 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:06:39.325 IST [18128] LOG:  checkpoint complete: wrote 108 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=11.149 s, sync=0.084 s, total=11.258 s; sync files=87, longest=0.004 s, average=0.001 s; distance=663 kB, estimate=4560 kB; lsn=0/1AFDA30, redo lsn=0/1AFD9F8
+2026-10-16 17:11:28.332 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:11:35.079 IST [18128] LOG:  checkpoint complete: wrote 62 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.349 s, sync=0.234 s, total=6.748 s; sync files=17, longest=0.084 s, average=0.014 s; distance=225 kB, estimate=4126 kB; lsn=0/1B360E8, redo lsn=0/1B360B0
+2026-10-16 17:16:28.079 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:16:43.969 IST [18128] LOG:  checkpoint complete: wrote 149 buffers (0.9%); 1 WAL file(s) added, 0 removed, 0 recycled; write=15.693 s, sync=0.100 s, total=15.890 s; sync files=96, longest=0.003 s, average=0.002 s; distance=901 kB, estimate=3804 kB; lsn=0/1C26878, redo lsn=0/1C17550
+2026-10-16 17:21:28.977 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:21:33.595 IST [18128] LOG:  checkpoint complete: wrote 44 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.573 s, sync=0.032 s, total=4.618 s; sync files=29, longest=0.002 s, average=0.002 s; distance=80 kB, estimate=3431 kB; lsn=0/1C2B588, redo lsn=0/1C2B550
+2026-10-16 17:31:28.607 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:31:30.974 IST [18128] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.335 s, sync=0.022 s, total=2.368 s; sync files=22, longest=0.005 s, average=0.001 s; distance=45 kB, estimate=3093 kB; lsn=0/1C36AA0, redo lsn=0/1C36A68
+2026-10-16 17:33:41.153 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:33:41.153 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:33:41.153 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:33:48.169 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:33:48.169 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:33:48.169 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:35:07.856 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:35:07.856 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:35:07.856 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:36:28.976 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:36:29.615 IST [18128] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.621 s, sync=0.010 s, total=0.639 s; sync files=7, longest=0.003 s, average=0.002 s; distance=7 kB, estimate=2784 kB; lsn=0/1C38930, redo lsn=0/1C388F8
+2026-10-16 17:41:19.934 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:41:19.934 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:41:19.934 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:41:28.624 IST [18128] LOG:  checkpoint starting: time
+2026-10-16 17:41:29.292 IST [18128] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.651 s, sync=0.007 s, total=0.668 s; sync files=7, longest=0.002 s, average=0.001 s; distance=11 kB, estimate=2507 kB; lsn=0/1C3B5C0, redo lsn=0/1C3B588
+2026-10-16 17:41:39.026 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:41:39.026 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:41:39.026 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:42:19.242 IST [21172] ERROR:  update or delete on table "student_platforms" violates foreign key constraint "sync_logs_student_platform_id_fkey" on table "sync_logs"
+2026-10-16 17:42:19.242 IST [21172] DETAIL:  Key (id)=(1) is still referenced from table "sync_logs".
+2026-10-16 17:42:19.242 IST [21172] STATEMENT:  DELETE FROM student_platforms WHERE student_platforms.id = $1::INTEGER
+2026-10-16 17:42:40.807 IST [21172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-10-16 17:46:05.869 IST [18796] LOG:  received fast shutdown request
+2026-10-16 17:46:05.872 IST [16016] ERROR:  canceling statement due to user request
+2026-10-16 17:46:05.874 IST [18796] LOG:  aborting any active transactions
+2026-10-16 17:46:05.875 IST [31800] FATAL:  terminating connection due to administrator command
+2026-10-16 17:46:05.884 IST [18796] LOG:  background worker "logical replication launcher" (PID 16016) exited with exit code 1
+2026-10-16 17:46:05.891 IST [18128] LOG:  shutting down
+2026-10-16 17:46:05.893 IST [18128] LOG:  checkpoint starting: shutdown immediate
+2026-10-16 17:46:05.923 IST [18128] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.016 s, total=0.033 s; sync files=11, longest=0.003 s, average=0.002 s; distance=37 kB, estimate=2260 kB; lsn=0/1C44BA0, redo lsn=0/1C44BA0
+2026-10-16 17:46:05.941 IST [18796] LOG:  database system is shut down
+2026-10-16 17:53:02.237 IST [23100] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-16 17:53:02.241 IST [23100] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-16 17:53:02.241 IST [23100] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-16 17:53:02.310 IST [23020] LOG:  database system was shut down at 2026-10-16 17:46:05 IST
+2026-10-16 17:53:02.368 IST [23100] LOG:  database system is ready to accept connections
+2026-10-16 18:02:46.699 IST [26192] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-16 18:02:46.709 IST [26192] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-16 18:02:46.709 IST [26192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-16 18:02:46.846 IST [5548] LOG:  database system was interrupted; last known up at 2026-10-16 17:56:26 IST
+2026-10-16 18:02:47.999 IST [5548] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-16 18:02:48.002 IST [5548] LOG:  invalid record length at 0/1C44C90: expected at least 24, got 0
+2026-10-16 18:02:48.002 IST [5548] LOG:  redo is not required
+2026-10-16 18:02:48.006 IST [16156] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-16 18:02:48.018 IST [16156] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.003 s, total=0.013 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1C44C90, redo lsn=0/1C44C90
+2026-10-16 18:02:48.064 IST [26192] LOG:  database system is ready to accept connections
+2026-10-22 16:27:45.988 IST [20832] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 16:27:45.998 IST [20832] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 16:27:45.998 IST [20832] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 16:27:46.120 IST [8068] LOG:  database system was interrupted; last known up at 2026-10-16 18:54:31 IST
+2026-10-22 16:27:47.761 IST [8068] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-22 16:27:47.771 IST [8068] LOG:  redo starts at 0/1C5BD58
+2026-10-22 16:27:47.777 IST [8068] LOG:  invalid record length at 0/1C63288: expected at least 24, got 0
+2026-10-22 16:27:47.778 IST [8068] LOG:  redo done at 0/1C63250 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-10-22 16:27:47.785 IST [28124] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-22 16:27:47.831 IST [28124] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.012 s, sync=0.024 s, total=0.048 s; sync files=19, longest=0.002 s, average=0.002 s; distance=29 kB, estimate=29 kB; lsn=0/1C63288, redo lsn=0/1C63288
+2026-10-22 16:27:47.911 IST [20832] LOG:  database system is ready to accept connections
+2026-10-22 16:32:47.846 IST [28124] LOG:  checkpoint starting: time
+2026-10-22 16:32:50.749 IST [28124] LOG:  checkpoint complete: wrote 26 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.721 s, sync=0.112 s, total=2.904 s; sync files=25, longest=0.052 s, average=0.005 s; distance=71 kB, estimate=71 kB; lsn=0/1C74FF8, redo lsn=0/1C74FC0
+2026-10-22 16:37:47.762 IST [28124] LOG:  checkpoint starting: time
+2026-10-22 16:37:51.749 IST [28124] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.788 s, sync=0.128 s, total=3.988 s; sync files=31, longest=0.058 s, average=0.005 s; distance=108 kB, estimate=108 kB; lsn=0/1C90188, redo lsn=0/1C90150
+2026-10-22 16:37:59.715 IST [20832] LOG:  received fast shutdown request
+2026-10-22 16:37:59.720 IST [20832] LOG:  aborting any active transactions
+2026-10-22 16:37:59.721 IST [17672] FATAL:  terminating connection due to administrator command
+2026-10-22 16:37:59.721 IST [25388] FATAL:  terminating connection due to administrator command
+2026-10-22 16:37:59.721 IST [31452] FATAL:  terminating connection due to administrator command
+2026-10-22 16:37:59.728 IST [31464] ERROR:  canceling statement due to user request
+2026-10-22 16:37:59.737 IST [20832] LOG:  background worker "logical replication launcher" (PID 31464) exited with exit code 1
+2026-10-22 16:37:59.738 IST [28124] LOG:  shutting down
+2026-10-22 16:37:59.741 IST [28124] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 16:37:59.776 IST [28124] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.016 s, total=0.039 s; sync files=6, longest=0.003 s, average=0.003 s; distance=13 kB, estimate=98 kB; lsn=0/1C93930, redo lsn=0/1C93930
+2026-10-22 16:37:59.791 IST [20832] LOG:  database system is shut down
+2026-10-22 20:11:18.399 IST [31760] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 20:11:18.404 IST [31760] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 20:11:18.404 IST [31760] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 20:11:18.572 IST [8660] LOG:  database system was shut down at 2026-10-22 16:37:59 IST
+2026-10-22 20:11:18.714 IST [31760] LOG:  database system is ready to accept connections
+2026-10-22 20:14:54.731 IST [31760] LOG:  received fast shutdown request
+2026-10-22 20:14:54.731 IST [2320] ERROR:  canceling statement due to user request
+2026-10-22 20:14:54.736 IST [31760] LOG:  aborting any active transactions
+2026-10-22 20:14:54.736 IST [12892] FATAL:  terminating connection due to administrator command
+2026-10-22 20:14:54.739 IST [31760] LOG:  background worker "logical replication launcher" (PID 2320) exited with exit code 1
+2026-10-22 20:14:54.748 IST [27576] LOG:  shutting down
+2026-10-22 20:14:54.750 IST [27576] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:14:54.803 IST [27576] LOG:  checkpoint complete: wrote 21 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.033 s, total=0.056 s; sync files=19, longest=0.003 s, average=0.002 s; distance=41 kB, estimate=41 kB; lsn=0/1C9E0D0, redo lsn=0/1C9E0D0
+2026-10-22 20:14:54.816 IST [31760] LOG:  database system is shut down
+2026-10-22 20:18:39.055 IST [8780] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 20:18:39.058 IST [8780] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 20:18:39.059 IST [8780] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 20:18:39.209 IST [17844] LOG:  database system was shut down at 2026-10-22 20:14:54 IST
+2026-10-22 20:18:39.348 IST [8780] LOG:  database system is ready to accept connections
+2026-10-22 20:23:39.132 IST [10232] LOG:  checkpoint starting: time
+2026-10-22 20:23:40.451 IST [10232] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.286 s, sync=0.021 s, total=1.320 s; sync files=13, longest=0.004 s, average=0.002 s; distance=43 kB, estimate=43 kB; lsn=0/1CA8E80, redo lsn=0/1CA8E48
+2026-10-22 20:26:25.496 IST [8780] LOG:  received fast shutdown request
+2026-10-22 20:26:25.496 IST [3388] ERROR:  canceling statement due to user request
+2026-10-22 20:26:25.506 IST [8780] LOG:  aborting any active transactions
+2026-10-22 20:26:25.507 IST [13656] FATAL:  terminating connection due to administrator command
+2026-10-22 20:26:25.507 IST [23672] FATAL:  terminating connection due to administrator command
+2026-10-22 20:26:25.508 IST [8780] LOG:  background worker "logical replication launcher" (PID 3388) exited with exit code 1
+2026-10-22 20:26:25.507 IST [18768] FATAL:  terminating connection due to administrator command
+2026-10-22 20:26:25.521 IST [10232] LOG:  shutting down
+2026-10-22 20:26:25.525 IST [10232] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:26:25.573 IST [10232] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.021 s, total=0.052 s; sync files=6, longest=0.006 s, average=0.004 s; distance=17 kB, estimate=40 kB; lsn=0/1CAD328, redo lsn=0/1CAD328
+2026-10-22 20:26:25.588 IST [8780] LOG:  database system is shut down
+2026-10-22 20:30:21.606 IST [30768] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 20:30:21.611 IST [30768] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 20:30:21.612 IST [30768] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 20:30:21.786 IST [6232] LOG:  database system was shut down at 2026-10-22 20:26:25 IST
+2026-10-22 20:30:21.948 IST [30768] LOG:  database system is ready to accept connections
+2026-10-22 20:30:26.970 IST [31124] ERROR:  canceling statement due to user request
+2026-10-22 20:30:26.970 IST [30768] LOG:  received fast shutdown request
+2026-10-22 20:30:26.973 IST [30768] LOG:  aborting any active transactions
+2026-10-22 20:30:26.980 IST [30768] LOG:  background worker "logical replication launcher" (PID 31124) exited with exit code 1
+2026-10-22 20:30:26.989 IST [30240] LOG:  shutting down
+2026-10-22 20:30:26.991 IST [30240] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:30:27.010 IST [30240] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1CAD3A0, redo lsn=0/1CAD3A0
+2026-10-22 20:30:27.030 IST [30768] LOG:  database system is shut down
+2026-10-22 20:32:18.907 IST [1760] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 20:32:18.913 IST [1760] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 20:32:18.914 IST [1760] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 20:32:19.100 IST [30032] LOG:  database system was shut down at 2026-10-22 20:30:27 IST
+2026-10-22 20:32:19.355 IST [1760] LOG:  database system is ready to accept connections
+2026-10-22 20:36:23.017 IST [26136] ERROR:  canceling statement due to user request
+2026-10-22 20:36:23.017 IST [1760] LOG:  received fast shutdown request
+2026-10-22 20:36:23.019 IST [1760] LOG:  aborting any active transactions
+2026-10-22 20:36:23.020 IST [22924] FATAL:  terminating connection due to administrator command
+2026-10-22 20:36:23.023 IST [1760] LOG:  background worker "logical replication launcher" (PID 26136) exited with exit code 1
+2026-10-22 20:36:23.027 IST [28588] LOG:  shutting down
+2026-10-22 20:36:23.028 IST [28588] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:36:23.048 IST [28588] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.009 s, total=0.021 s; sync files=8, longest=0.002 s, average=0.002 s; distance=16 kB, estimate=16 kB; lsn=0/1CB1668, redo lsn=0/1CB1668
+2026-10-22 20:36:23.057 IST [1760] LOG:  database system is shut down
+2026-10-22 20:42:22.185 IST [20288] LOG:  starting PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit
+2026-10-22 20:42:22.191 IST [20288] LOG:  listening on IPv6 address "::1", port 5432
+2026-10-22 20:42:22.191 IST [20288] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-10-22 20:42:22.379 IST [8712] LOG:  database system was shut down at 2026-10-22 20:36:23 IST
+2026-10-22 20:42:22.553 IST [20288] LOG:  database system is ready to accept connections
+2026-10-22 20:43:28.136 IST [28628] ERROR:  canceling statement due to user request
+2026-10-22 20:43:28.136 IST [20288] LOG:  received fast shutdown request
+2026-10-22 20:43:28.138 IST [20288] LOG:  aborting any active transactions
+2026-10-22 20:43:28.139 IST [23020] FATAL:  terminating connection due to administrator command
+2026-10-22 20:43:28.141 IST [20288] LOG:  background worker "logical replication launcher" (PID 28628) exited with exit code 1
+2026-10-22 20:43:28.146 IST [10340] LOG:  shutting down
+2026-10-22 20:43:28.147 IST [10340] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:43:28.161 IST [10340] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.003 s, total=0.015 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1CB1718, redo lsn=0/1CB1718
+2026-10-22 20:43:28.168 IST [20288] LOG:  database system is shut down
